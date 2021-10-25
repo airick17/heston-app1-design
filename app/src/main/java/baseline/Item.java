@@ -10,7 +10,7 @@ public class Item {
     private int itemNum;
     private String description;
     private String dueDate;
-    private boolean isComplete;
+    private boolean isComplete = false;
 
     //getter setters
     public int getItemNum() {return itemNum;}
@@ -19,6 +19,7 @@ public class Item {
     public void setDescription(String description) {this.description = description;}
     public String getDueDate() {return dueDate;}
     public void setDueDate(String dueDate) {this.dueDate = dueDate;}
+
     public boolean isComplete() {return isComplete;}
     public void setComplete(boolean complete) {isComplete = complete;}
 
