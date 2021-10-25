@@ -1,4 +1,4 @@
-module heston.app1.design.main {
+module heston.app.design.main {
     requires javafx.controls;
     requires javafx.fxml;
 
